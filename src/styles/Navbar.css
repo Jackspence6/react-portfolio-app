@@ -1,0 +1,15 @@
+#navContainer {
+	background-color: black;
+}
+
+#navItem {
+	color: white;
+	margin-right: 2rem;
+	font-family: fantasy;
+}
+
+.resumeIcon {
+	padding: 5px;
+	height: 1.2rem;
+	margin-right: 5px;
+}

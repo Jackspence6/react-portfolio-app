@@ -2,9 +2,7 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 // Function to render Portfolio
 function PortfolioContainer() {
@@ -15,15 +13,8 @@ function PortfolioContainer() {
 		if (currentPage === "Home") {
 			return <Home />;
 		}
-		if (currentPage === "About") {
-			return <About />;
-		}
-
-		if (currentPage === "Contact") {
-			return <Contact />;
-		}
-		if (currentPage === "Projects") {
-			return <Projects />;
+		if (currentPage === "Resume") {
+			return <Resume />;
 		}
 	};
 

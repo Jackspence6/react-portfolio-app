@@ -23,7 +23,7 @@
 #name {
 	font-size: 8rem;
 	font-family: fantasy;
-	margin-top: 3rem;
+	margin-top: 1rem;
 }
 
 #surname {
@@ -35,15 +35,13 @@
 #role {
 	font-size: 2rem;
 	font-family: monospace;
+	font-style: italic;
 }
-
-/* #rightDiv {
-	width: 40%;
-} */
 
 .socialIcon {
 	height: 3rem;
 	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 
 #socialLinks {

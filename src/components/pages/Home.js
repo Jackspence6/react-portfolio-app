@@ -58,7 +58,6 @@ export default function Home() {
 					/>
 				</p>
 			</div>
-			{/* <div id="rightDiv"></div> */}
 		</div>
 	);
 }
