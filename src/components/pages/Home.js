@@ -1,9 +1,9 @@
 // Imports
 import React from "react";
 // Icons for Homepage
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Icon from "@mui/material/Icon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // Exports
 export default function Home() {
@@ -13,12 +13,20 @@ export default function Home() {
 				<ul>
 					<li>
 						<a href="https://www.linkedin.com/in/jack-spence-1567b523b/">
-							<Icon component={LinkedInIcon} color="action"></Icon>
+							<FontAwesomeIcon
+								icon={faLinkedin}
+								size="xl"
+								style={{ color: "#050505" }}
+							/>
 						</a>
 					</li>
 					<li>
 						<a href="https://github.com/Jackspence6">
-							<Icon component={GitHubIcon} color="action"></Icon>
+							<FontAwesomeIcon
+								icon={faGithub}
+								size="xl"
+								style={{ color: "#050505" }}
+							/>{" "}
 						</a>
 					</li>
 				</ul>
