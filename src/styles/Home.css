@@ -13,7 +13,7 @@
 }
 
 #middleDiv {
-	width: 45%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	color: white;
@@ -37,9 +37,9 @@
 	font-family: monospace;
 }
 
-#rightDiv {
+/* #rightDiv {
 	width: 40%;
-}
+} */
 
 .socialIcon {
 	height: 3rem;
