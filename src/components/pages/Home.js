@@ -57,6 +57,21 @@ export default function Home() {
 						deletionSpeed={90}
 					/>
 				</p>
+				<h3>My Work</h3>
+				<div id="workContainer">
+					<div className="workItemCard">
+						<h4>AI Learning Portal</h4>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							className="container-work"
+							id="ai-learning-portal"
+						>
+							{" "}
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
