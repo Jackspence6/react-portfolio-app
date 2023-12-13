@@ -1,0 +1,51 @@
+#homeContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	background-color: black;
+}
+
+#leftDiv {
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#middleDiv {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+}
+
+#name {
+	font-size: 8rem;
+	font-family: fantasy;
+	margin-top: 3rem;
+}
+
+#surname {
+	font-size: 4rem;
+	font-family: fantasy;
+	margin-left: 3rem;
+}
+
+#role {
+	font-size: 2rem;
+	font-family: monospace;
+}
+
+#rightDiv {
+	width: 40%;
+}
+
+.socialIcon {
+	height: 3rem;
+	margin-top: 4rem;
+}
+
+#socialLinks {
+	list-style: none;
+}
