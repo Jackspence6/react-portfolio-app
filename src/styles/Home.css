@@ -1,3 +1,27 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+
+html {
+	background-color: black;
+}
+
+h3 {
+	font-family: "Libre Barcode 39 Text", "Preahvihear";
+	font-size: 3rem;
+}
+
+h4 {
+	font-family: "Press Start 2P", "Preahvihear";
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 5px;
+}
+
 #homeContainer {
 	display: flex;
 	flex-direction: row;
@@ -18,6 +42,10 @@
 	flex-direction: column;
 	color: white;
 	text-align: center;
+}
+
+#aboutContainer {
+	min-height: 100vh;
 }
 
 #name {
@@ -50,8 +78,10 @@
 
 #workContainer {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background-color: black;
 }
 
 .container-work {
@@ -71,20 +101,13 @@
 	height: 25rem;
 	align-items: center;
 	align-content: center;
-	border: 0.05cm solid #36405b;
+	border: 2px solid whitesmoke;
 	border-radius: 10px;
-}
-
-h4 {
-	font-size: 10px;
-	color: white;
-	font-family: monospace;
-	font-weight: bold;
-	text-align: center;
 }
 
 .workItemCard {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
+	margin: 2rem;
 }
