@@ -4,6 +4,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 // Typing animation
 import { TypeAnimation } from "react-type-animation";
 import "../../styles/Home.css";
@@ -48,8 +49,23 @@ export default function Home() {
 				</div>
 				<div id="middleDiv">
 					<div id="aboutContainer">
-						<h1 id="name">Jack</h1>
-						<h2 id="surname">Spence</h2>
+						<h1 id="name">
+							<FontAwesomeIcon
+								className="codeIcon"
+								icon={faChevronRight}
+								fade
+							/>
+							Jack
+						</h1>
+						<h2 id="surname">
+							<FontAwesomeIcon
+								className="codeIcon1"
+								icon={faChevronRight}
+								fade
+							/>
+							Spence
+						</h2>
+						<hr />
 						<h3 id="role">Full Stack Developer</h3>
 						<hr />
 						<TypeAnimation

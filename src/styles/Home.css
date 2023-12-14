@@ -58,12 +58,27 @@ h4 {
 	font-size: 8rem;
 	font-family: fantasy;
 	margin-top: 1rem;
+	text-align: center;
+}
+
+.codeIcon {
+	color: powderblue;
+	height: 4rem;
+	margin-right: 1rem;
+	padding: 15px;
+}
+
+.codeIcon1 {
+	color: powderblue;
+	height: 3rem;
+	margin-right: 1rem;
 }
 
 #surname {
 	font-size: 4rem;
 	font-family: fantasy;
 	margin-left: 3rem;
+	margin-bottom: 3rem;
 }
 
 #role {
