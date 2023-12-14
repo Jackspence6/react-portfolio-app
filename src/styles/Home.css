@@ -93,6 +93,14 @@ h4 {
 	font-size: 13px;
 }
 
+.workItemCard {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 2rem;
+}
+
+/* Portfolio Items */
 #ai-learning-portal {
 	background-image: url("../assets/ai-learning-portal.gif");
 	background-size: cover;
@@ -105,9 +113,62 @@ h4 {
 	border-radius: 10px;
 }
 
-.workItemCard {
-	display: flex;
-	flex-direction: column;
-	width: 40%;
-	margin: 2rem;
+#social-network-api {
+	background-image: url("../assets/addReaction.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+	align-items: center;
+	align-content: center;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+}
+
+#tech-blog {
+	background-image: url("../assets/techBlog.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+	align-items: center;
+	align-content: center;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+}
+
+#weather-dashboard {
+	background-image: url("../assets/weather-dashboard.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+	align-items: center;
+	align-content: center;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+}
+
+#eCommerce-back-end {
+	background-image: url("../assets/eCommerceBackend.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+	align-items: center;
+	align-content: center;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+}
+
+#employee-tracker {
+	background-image: url("../assets/employee-tracker.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+	align-items: center;
+	align-content: center;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
 }

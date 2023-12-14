@@ -79,9 +79,9 @@ export default function Home() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							href="https://github.com/Jackspence6/NoSQL-social-network-api"
 							className="container-work"
-							id="ai-learning-portal"
+							id="social-network-api"
 						>
 							{" "}
 						</a>
@@ -92,9 +92,9 @@ export default function Home() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							href="https://github.com/Jackspence6/tech-blog/tree/main"
 							className="container-work"
-							id="ai-learning-portal"
+							id="tech-blog"
 						>
 							{" "}
 						</a>
@@ -105,9 +105,9 @@ export default function Home() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							href="https://jackspence6.github.io/weather-dashboard/"
 							className="container-work"
-							id="ai-learning-portal"
+							id="weather-dashboard"
 						>
 							{" "}
 						</a>
@@ -118,9 +118,9 @@ export default function Home() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							href="https://github.com/Jackspence6/e-commerce-back-end-ORM-"
 							className="container-work"
-							id="ai-learning-portal"
+							id="eCommerce-back-end"
 						>
 							{" "}
 						</a>
@@ -131,9 +131,9 @@ export default function Home() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://ai-learning-portal-c3740c057c06.herokuapp.com/"
+							href="https://github.com/Jackspence6/EmployeeTrackerSQL"
 							className="container-work"
-							id="ai-learning-portal"
+							id="employee-tracker"
 						>
 							{" "}
 						</a>
