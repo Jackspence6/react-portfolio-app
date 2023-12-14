@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-app/static/css/main.012fc199.css",
+    "main.js": "/react-portfolio-app/static/js/main.e089b6fa.js",
+    "static/media/ai-learning-portal.gif": "/react-portfolio-app/static/media/ai-learning-portal.355fb7b82dc1ec5c4dd3.gif",
+    "static/media/weather-dashboard.gif": "/react-portfolio-app/static/media/weather-dashboard.002660250b5c1fee9ed7.gif",
+    "static/media/addReaction.gif": "/react-portfolio-app/static/media/addReaction.ead6d02146e26a3754f0.gif",
+    "static/media/techBlog.png": "/react-portfolio-app/static/media/techBlog.2604681c81ae97197976.png",
+    "static/media/eCommerceBackend.png": "/react-portfolio-app/static/media/eCommerceBackend.4d7dde8ba228705df2a6.png",
+    "static/media/employee-tracker.png": "/react-portfolio-app/static/media/employee-tracker.84c10bc98dec45ad9987.png",
+    "index.html": "/react-portfolio-app/index.html",
+    "main.012fc199.css.map": "/react-portfolio-app/static/css/main.012fc199.css.map",
+    "main.e089b6fa.js.map": "/react-portfolio-app/static/js/main.e089b6fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.012fc199.css",
+    "static/js/main.e089b6fa.js"
+  ]
+}
