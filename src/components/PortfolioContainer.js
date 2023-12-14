@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import Home from "./pages/Home";
-import Resume from "./pages/Resume";
 
 // Function to render Portfolio
 function PortfolioContainer() {
@@ -13,18 +12,23 @@ function PortfolioContainer() {
 		if (currentPage === "Home") {
 			return <Home />;
 		}
-		if (currentPage === "Resume") {
-			return <Resume />;
-		}
 	};
 
 	// Function to handle the page change for the user
 	const handlePageChange = (page) => setCurrentPage(page);
 
+	// Url for my Resume Document
+	const resumeUrl =
+		process.env.PUBLIC_URL + "/Jack_Spence_-_Software_Developer.pdf";
+
 	// Returning the correct page to the User
 	return (
 		<div>
-			<Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+			<Navbar
+				currentPage={currentPage}
+				handlePageChange={handlePageChange}
+				resumeUrl={resumeUrl}
+			/>
 			{renderPage()}
 		</div>
 	);

@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 // Function to render Navbar & handle page changes
-function Navbar({ currentPage, handlePageChange }) {
+function Navbar({ currentPage, handlePageChange, resumeUrl }) {
 	return (
 		<nav id="navContainer" className="navbar navbar-expand-lg">
 			<div
@@ -18,8 +18,8 @@ function Navbar({ currentPage, handlePageChange }) {
 						<a
 							id="navItem"
 							className="nav-link"
-							href="#Resume"
-							onClick={() => handlePageChange("Resume")}
+							href={resumeUrl}
+							download="JackSpenceResume.pdf"
 						>
 							<FontAwesomeIcon
 								icon={faDownload}
