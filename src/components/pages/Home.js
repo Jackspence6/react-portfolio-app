@@ -75,7 +75,7 @@ export default function Home() {
 							wrapper="p"
 							speed={90}
 							style={{
-								fontSize: "20px",
+								fontSize: "18px",
 								display: "inline-block",
 								fontFamily: "Fira Code",
 								color: "chartreuse",
