@@ -1,0 +1,62 @@
+h5 {
+	border-bottom: 0.08rem solid;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 0.9rem;
+	color: #b6b2bf;
+}
+
+div.col.l6.col.s12 {
+	margin-top: 0.38rem;
+}
+
+div.col.l4.offset-l2.col.s12 {
+	margin-top: 0.38rem;
+}
+
+.col.s12 {
+	margin-top: 10rem;
+}
+
+.row {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-container {
+	padding: 0.77rem;
+}
+
+.page-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: space-between;
+	padding: 15px;
+	position: absolute;
+	bottom: -130rem;
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.footerIcon {
+	height: 2rem;
+	padding: 5px;
+}
+
+#getInTouch {
+	color: white;
+}
+
+#footerAbout {
+	margin-top: 2rem;
+	font-size: 12px;
+	color: white;
+	font-family: "Press Start 2P";
+}
