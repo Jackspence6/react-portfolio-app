@@ -57,12 +57,12 @@ export default function Home() {
 						deletionSpeed={90}
 					/>
 				</div>
-				<h3>My Work</h3>
+				<h3 id="workHeading">My Work</h3>
 				<hr />
 				<div id="workContainer">
 					{/* AI Learning Portal */}
 					<div className="workItemCard">
-						<h4>AI Learning Portal</h4>
+						<h4 className="itemName">AI Learning Portal</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
@@ -75,7 +75,7 @@ export default function Home() {
 					</div>
 					{/* NoSQL: Social Network API */}
 					<div className="workItemCard">
-						<h4>Social Network API</h4>
+						<h4 className="itemName">Social Network API</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
@@ -88,7 +88,7 @@ export default function Home() {
 					</div>
 					{/* Tech Blog: A Developer's Tech Blog Platform */}
 					<div className="workItemCard">
-						<h4>Tech Blog</h4>
+						<h4 className="itemName">Tech Blog</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
@@ -101,7 +101,7 @@ export default function Home() {
 					</div>
 					{/* Weather Dashboard */}
 					<div className="workItemCard">
-						<h4>Weather Dashboard</h4>
+						<h4 className="itemName">Weather Dashboard</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
@@ -114,7 +114,7 @@ export default function Home() {
 					</div>
 					{/* E-Commerce Back End */}
 					<div className="workItemCard">
-						<h4>E-Commerce Back End</h4>
+						<h4 className="itemName">E-Commerce Back End</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
@@ -127,7 +127,7 @@ export default function Home() {
 					</div>
 					{/* SQL: EmployeeTracker */}
 					<div className="workItemCard">
-						<h4>EmployeeTracker</h4>
+						<h4 className="itemName">EmployeeTracker</h4>
 						<a
 							target="_blank"
 							rel="noreferrer"
