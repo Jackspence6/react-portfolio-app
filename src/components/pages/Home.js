@@ -15,7 +15,11 @@ export default function Home() {
 			<div id="leftDiv">
 				<ul id="socialLinks">
 					<li>
-						<a href="https://www.linkedin.com/in/jack-spence-1567b523b/">
+						<a
+							href="https://www.linkedin.com/in/jack-spence-1567b523b/"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<FontAwesomeIcon
 								icon={faLinkedin}
 								size="xl"
@@ -25,7 +29,11 @@ export default function Home() {
 						</a>
 					</li>
 					<li>
-						<a href="https://github.com/Jackspence6">
+						<a
+							href="https://github.com/Jackspence6"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<FontAwesomeIcon
 								icon={faGithub}
 								size="xl"
